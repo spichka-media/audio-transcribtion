@@ -1,0 +1,9 @@
+MODEL_NAME: large
+LANG: ru
+DEVICE: cpu
+PART_LEN: 120
+DATAPATH: ./data_ru
+FILEPATH: ./data_ru/тест-виспера.mp3
+RESULTPATH: ./results_ru
+
+
