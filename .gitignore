@@ -1,4 +1,7 @@
-/whisp_venv
-/data_ru
-/results_ru
+/data_ru/*
+!data_ru/example.mp3
+
+/results_ru/*
+!results_ru/example.txt
+
 /.idea

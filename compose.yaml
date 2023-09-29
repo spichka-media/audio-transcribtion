@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    container_name: spichka_audio_to_text
+    working_dir: /app
+    command: python asr_file_processing.py
+    restart: no
+    volumes:
+      - ./data_ru:/app/data_ru
+      - ./results_ru:/app/results_ru
+      - ./src:/app
